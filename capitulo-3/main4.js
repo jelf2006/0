@@ -5,4 +5,4 @@ let Frutas = frutas.slice(1,3)
 
 
 console.log("String: "+string)
-console.log("Frutas: "+frutas)
+console.log("Frutas: "+Frutas)
