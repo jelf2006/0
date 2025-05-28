@@ -1,5 +1,14 @@
-let x = document.getElementById("myInput");
+let x = document.getElementById("link");
+let y = document.getElementsByClassName("banana")[0];
+let z = document.getElementsByTagName("button")[0];
+let w = document.querySelector("p");
+let h = document.querySelector("input");
 
-x.addEventListener("change", function() {
-    console.log("o valor do input foi altera para " + this.value);
+x.style.color = "red";
+y.style.color = "green";
+z.style.color = "blue";
+w.style.color = "yellow";
+x.textContent = "aaaa";
+h.addEventListener("change", function() {
+    x.textContent = "vc pesquisou "+ this.value ;
 })

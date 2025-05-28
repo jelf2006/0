@@ -1,2 +1,3 @@
-let x = document.getElementById("link");
-x.setAttribute("href", "https://ankipro.net/decks");
+document.getElementById("myButtom").addEventListener("click", function() {
+    document.getElementById("banana")[0].style.color = "red";
+})
