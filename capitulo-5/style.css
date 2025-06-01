@@ -1,0 +1,23 @@
+#title {
+    text-align: center;
+    font-size: 4rem;
+}
+body {
+    background-image: url(https://img.freepik.com/fotos-gratis/casa-de-ferias-de-luxo_23-2151918256.jpg?semt=ais_items_boosted&w=740);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+#div1 {
+    background-color: burlywood;
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+    height: 85vh;
+    margin: 0 auto;
+    border-radius: 5% 5% 0 0;
+}
